@@ -1,36 +1,23 @@
-# Iris Veri Kümesi Analizi
+# Makine Öğrenimi Projesi: Basit Bir Tahmin Modeli Oluşturma
 
-Bu proje, ünlü Iris veri kümesini kullanarak veri temizleme, keşifsel veri analizi (EDA) ve görselleştirme adımlarını içermektedir. Ayrıca, bir karar ağacı sınıflandırıcısı kullanılarak modelleme süreci gerçekleştirilmiştir.
+## Proje Açıklaması
 
-## Proje İçeriği
+Bu proje, Iris veri seti kullanılarak basit bir tahmin modeli (lojistik regresyon) oluşturmayı amaçlamaktadır. Proje kapsamında veriler ön işlenecek, model eğitilecek, performansı değerlendirilecek ve sonuçlar yorumlanacaktır.
 
-1. **Veri Temizleme:**
-   - Eksik verilerin kontrolü
-   - Veri türlerinin doğrulanması
+## İçindekiler
 
-2. **Keşifsel Veri Analizi (EDA):**
-   - Temel istatistiklerin hesaplanması
-   - Sınıf dağılımlarının incelenmesi
+- [Gereksinimler](#gereksinimler)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Proje Adımları](#proje-adımları)
+- [Sonuçlar](#sonuçlar)
+- [İletişim](#iletişim)
 
-3. **Veri Görselleştirme:**
-   - Pairplot ile çiftler arası ilişkilerin gösterimi
-   - Korelasyon matrisinin ısı haritası ile görselleştirilmesi
+## Gereksinimler
 
-4. **Modelleme Süreci:**
-   - Karar ağacı sınıflandırıcısı kullanılarak model oluşturulması
-   - Modelin eğitilmesi ve değerlendirilmesi
+Bu proje aşağıdaki Python kütüphanelerini gerektirir:
 
-5. **Raporlama:**
-   - Modelleme süreci, değerlendirme sonuçları ve potansiyel iyileştirmeler hakkında bilgi
-
-## Kullanılan Teknolojiler
-
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
-
-
-
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
